@@ -1,20 +1,20 @@
-** JWT and Docker Kubernetes Project **
+**JWT and Docker Kubernetes Project**
 
 This project demonstrates a robust authentication system using JSON Web Tokens (JWT)  and containerization with Docker and deployment on a Kubernetes cluster ⎈ for a scalable and secure application architecture.
 
-** Tools**
+**Tools**
 
 - Node.js and npm
 - Docker 
 - Kubernetes cluster (minikube, local cluster) ☸️
 
-** Project Overview**
+**Project Overview**
 
 - **Secure Authentication:** Implement JWT-based authentication to protect your API endpoints with confidence.
 - **Dockerized Deployment:** Package your application as a Docker image for consistent and portable deployments across environments ➡️.
 - **Kubernetes Orchestration:** Leverage Kubernetes to manage containerized applications across a cluster, ensuring scalability and fault tolerance for high availability.
 
-** Screenshots**
+**Screenshots**
 
 JSON Web Token Authentication successful on POSTMAN
 
@@ -29,7 +29,7 @@ Kubernetes cluster to manage the docker image
 Docker Image deployment on the Kubernetes cluster
 
 
-** JWT Authentication Flow**
+**JWT Authentication Flow**
 
 1. **User Login:** The user provides credentials (username and password) .
 2. **Server-Side Validation:** The server validates the credentials (against a database) ️‍♀️.
