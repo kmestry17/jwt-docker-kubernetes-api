@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: docker-api
+spec:
+  replicas: 2 # Number of replicas to run
+  selector:
+    matchLabels:
+      app: docker-api
+  template:
+    metadata:
+      labels:
+        app: docker-api
+    spec:
+      containers:
+        - name: docker-api
+          image: docker-api # Image name
+          ports:
+            - containerPort: 3000
