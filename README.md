@@ -1,4 +1,4 @@
-# JWT and Docker Kubernetes Project
+# JWT and Docker Kubernetes Project 
 
 This project demonstrates a robust authentication system using JSON Web Tokens (JWT)  and containerization with Docker and deployment on a Kubernetes cluster ⎈ for a scalable and secure application architecture.
 
